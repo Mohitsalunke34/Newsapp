@@ -1,0 +1,10 @@
+.footer {
+    background-color: #1a2e3e;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 56px; /* Same height as your navbar */
+  }
+  

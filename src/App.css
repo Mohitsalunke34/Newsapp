@@ -1,0 +1,40 @@
+/* App.css */
+
+.content {
+  margin-left: 250px; /* Adjust this to match the width of your sidebar */
+  padding: 20px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #1a2e3e;
+  position: fixed;
+  height: 100%;
+  padding-top: 20px;
+  left: 0;
+  top: 56px; /* Assuming the navbar height is 56px */
+}
+
+.sidebar h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  color: #ccc;
+}

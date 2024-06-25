@@ -1,0 +1,42 @@
+/* Cricket.css */
+
+.cricket-container {
+  color: white;
+  padding: 20px;
+}
+
+.cricket-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-md-4 {
+  flex: 0 0 30%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+}
+
+.news-item h3 {
+  font-size: 1.5rem;
+}
+
+.news-item p {
+  font-size: 1rem;
+}
+
+.news-item a {
+  color: #1a2e3e;
+  text-decoration: none;
+}
